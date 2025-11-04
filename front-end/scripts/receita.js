@@ -21,7 +21,7 @@ logo.addEventListener('click', () => {
 })
 
 async function MontarPagina() {
-    const receita = await axios.get(`http://localhost:3000/buscar/${id}`)
+    const receita = await axios.get(`https://pi2ano2025-1.onrender.com/buscar/${id}`)
 
     titulo.innerHTML = receita.data.titulo
     ingredientes.innerHTML = receita.data.ingredientes
