@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+
+#top {
+    width: 100%;
+    display: flex;
+}
+
+#top_left {
+    height: 100%;
+    padding-left: 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top_left h1 {
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+#top_left p {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#top_right {
+    height: 800px;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#img1, #img2 {
+    height: 40%;
+    width: 40%;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 5px #0c355b;
+}
+ 
+#bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom p {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#etapas {
+    width: 80%;
+
+}
+
+main {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 5px red;
+}
+
+#img_receita1, #img_receita2 {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+} 
+
+#titulo {
+    color: #0c355b;
+}

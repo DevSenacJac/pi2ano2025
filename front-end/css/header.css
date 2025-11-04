@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffbe7;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #0c355b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px 5px #94845a;
+}
+
+#logo {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#logo img {
+    height: 75%;
+    width: 22%;
+    border-radius: 100%;
+}
+
+#text_logo {
+    font-size: 45px;
+    font-family: "Newsreader", serif;
+    color: #fffbe7;
+} 
+#botoes {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#botoes input:hover {
+    cursor: pointer;
+}
+
+.btn {
+    height: 50px;
+    width: 140px;
+    background-color: #fffbe7;
+    border: none;
+    border-radius: 40px;
+    font-size: 28px;
+    font-family: "Newsreader", serif;
+    color: #0c355b;
+    margin-left: 40%;
+}
+
+.btn:hover {
+    background-color: #fee972;
+    transition-duration: 0.5s;
+    padding: blue 1px solid;
+}
+
+#home_btn {
+    margin-left: 40%;
+}
+
+#btn_voltar {
+    height: 50px;
+    width: 300px;
+    background-color: #fffbe7;
+    border: none;
+    border-radius: 40px;
+    font-size: 28px;
+    font-family: "Newsreader", serif;
+    color: #0c355b;
+    margin-left: 70%;
+}
+
+#salgada_btn {
+    margin-left: 20px;
+}
+
+#doces_btn {
+     margin-left: 20px;
+}
+
+
+
+#img_logo {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+#menu_salgado, #menu_doce {
+    width: 50%;
+    height: 20vh;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 11vh;
+    display: none;
+    border-radius: 10px;
+    background-color: #fffbe7;
+}
+
+.left, .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left p, .right p {
+    font-size: 25px;
+}
+
+.left p:hover, .right p:hover {
+    background-color: gray;
+    transition-duration: 1s;
+}
+
+#carouselExampleIndicators {
+    height: 50%;
+    width: 50%;
+    background-color: transparent;
+}
+

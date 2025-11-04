@@ -1,0 +1,95 @@
+#superior {
+    height: 10vh;
+    width: 20%;
+    display: flex;
+    margin-left: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#superior input {
+    height: 30%;
+    width: 80%;
+    border-radius: 40px;
+    border: solid 3px #0c355b;
+    font-family: "Newsreader", serif;
+    color: #0c355b;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+#superior input::placeholder {
+    text-align: left;
+    font-family: "Newsreader", serif;
+    color: #0c355b;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#meio {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 45px;
+    font-family: "Newsreader", serif;
+    color: #0c355b;
+    text-align: center;
+}
+
+#baixo {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#carrossel1 {
+    height: 550px;
+    width: 600px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#img_carro1{
+    width: 1800px;
+    height: 550px;
+    display: flex;
+    border-radius: 30px;
+}
+
+#img_carro1 img {
+    border-radius: 30px;
+}
+
+#carrossel2 {
+    height: 550px;
+    width: 600px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#img_carro2 {
+    width: 1800px;
+    height: 550px;
+    display: flex;
+    border-radius: 30px;
+}
+
+#img_carro2 img {
+    border-radius: 30px;
+}
+
+h6 {
+    font-size: 27px;
+}
+
+h6:hover {
+    cursor: pointer;
+}
